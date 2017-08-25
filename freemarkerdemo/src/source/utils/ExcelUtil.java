@@ -95,6 +95,8 @@ public class ExcelUtil {
 				SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 				strCell = dateFormat.format(HSSFDateUtil.getJavaDate(cell
 						.getNumericCellValue()));
+			}else if(cell.getCellStyle().getDataFormatString().indexOf("%")!=-1){
+				strCell=cell.getNumericCellValue()*100+"%";//百分比校验
 			} else {
 				DecimalFormat nf = new DecimalFormat("0");// 格式化数字
 				strCell = nf.format(cell.getNumericCellValue());
