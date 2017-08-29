@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/fastjson-1.2.4.jar"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/freemarker-2.3.12.jar"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="src/source/utils/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
