@@ -7,13 +7,13 @@ import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
  
-
  
 /**
  * @author wt
  * Javabean必须标准 ，比如链式调用或格式不规范会有问题
  */
 public class BeanInfoUtil{
+	
 	
 	public static  PropertyDescriptor getPropertyDescriptorForIndex(Object obj,int index) throws SecurityException, NoSuchFieldException{
 			BeanInfo info = null;
