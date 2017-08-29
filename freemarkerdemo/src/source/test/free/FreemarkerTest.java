@@ -22,10 +22,10 @@ public class FreemarkerTest {
 		map.put("title","标题");
 		try {
 			//word
-			//File f = FreeMarkerUtil.createDoc(map,"test","/source/test/free",UuidUtil.get32UUID(),wordPath,".doc");
+			File f = FreeMarkerUtil.createDoc(map,"test","/source/test/free",UuidUtil.get32UUID(),wordPath,".doc");
 			
 			//txt
-			File f = FreeMarkerUtil.createDoc(map,"test2","/source/test/free",UuidUtil.get32UUID(),wordPath,".txt");
+			//File f = FreeMarkerUtil.createDoc(map,"test2","/source/test/free",UuidUtil.get32UUID(),wordPath,".txt");
 			System.out.println(f.getAbsolutePath());
 		} catch (IOException e) {
 			e.printStackTrace();

@@ -1,0 +1,105 @@
+word中
+
+
+所有定义的变量都要用${}，参数写在括号里
+
+标签参考：
+
+<#list hardwares as ha>  list遍历表数据 as:定义名称 ha.数据   </#list>  
+
+<w:tr></w:tr>（要用list包住tr标签）
+
+
+
+${title} 直接定义变量传值，这里的字段要一致
+
+
+<w:p> 表示一个段落
+
+<w:r> 表示一个样式串，指明它包括的文本的显示样式
+
+<w:t> 表示真正的文本内容
+
+
+
+
+判断标签参考 这里gte为条件：
+
+<#if jszb gte 98>
+
+	<w:r>
+
+           <w:rPr>
+
+           <w:rFonts w:hint="eastAsia"/>
+
+	   <w:color w:val="FF0000"/>
+
+           </w:rPr>
+
+           <w:t>${jszb}</w:t>
+
+         </w:r>
+
+<#else>
+
+	<w:r>
+
+           <w:rPr>
+
+           <w:rFonts w:hint="eastAsia"/>
+
+           </w:rPr>
+
+           <w:t>${jszb}</w:t>
+
+        </w:r>
+
+</#if>
+
+
+
+颜色参考：
+
+<w:r>
+
+    <w:rPr>
+
+      <w:rFonts w:hint="eastAsia"/>
+
+      <w:color w:val="FF0000"/>
+
+    </w:rPr>
+
+       <w:t>${jszb}</w:t>
+
+</w:r>
+
+<w:color w:val="FF0000"/>   红色
+
+<w:color w:val="FFFF00"/>   黄色
+
+<w:color w:val="548DD4"      蓝色
+
+
+ftl格式中一个普通文本的格式：
+
+<w:r>
+
+    <w:rPr>
+
+     <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="宋体" w:hint="eastAsia"/>
+
+     <w:b/>
+
+     <w:bCs/>
+
+     <w:color w:val="0000FF"/>
+
+     <w:szCs w:val="24"/>
+
+    </w:rPr>
+
+    <w:t>生产进度一览表</w:t>
+
+</w:r>
