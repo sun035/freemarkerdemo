@@ -1,29 +1,29 @@
-wordÖÐ
+wordä¸­
 
 
-ËùÓÐ¶¨ÒåµÄ±äÁ¿¶¼ÒªÓÃ${}£¬²ÎÊýÐ´ÔÚÀ¨ºÅÀï
+æ‰€æœ‰å®šä¹‰çš„å˜é‡éƒ½è¦ç”¨${}ï¼Œå‚æ•°å†™åœ¨æ‹¬å·é‡Œ
 
-±êÇ©²Î¿¼£º
+æ ‡ç­¾å‚è€ƒï¼š
 
-<#list hardwares as ha>  list±éÀú±íÊý¾Ý as:¶¨ÒåÃû³Æ ha.Êý¾Ý   </#list>  
+<#list hardwares as ha>  listéåŽ†è¡¨æ•°æ® as:å®šä¹‰åç§° ha.æ•°æ®   </#list>  
 
-<w:tr></w:tr>£¨ÒªÓÃlist°ü×¡tr±êÇ©£©
-
-
-
-${title} Ö±½Ó¶¨Òå±äÁ¿´«Öµ£¬ÕâÀïµÄ×Ö¶ÎÒªÒ»ÖÂ
-
-
-<w:p> ±íÊ¾Ò»¸ö¶ÎÂä
-
-<w:r> ±íÊ¾Ò»¸öÑùÊ½´®£¬Ö¸Ã÷Ëü°üÀ¨µÄÎÄ±¾µÄÏÔÊ¾ÑùÊ½
-
-<w:t> ±íÊ¾ÕæÕýµÄÎÄ±¾ÄÚÈÝ
+<w:tr></w:tr>ï¼ˆè¦ç”¨liståŒ…ä½træ ‡ç­¾ï¼‰
 
 
 
+${title} ç›´æŽ¥å®šä¹‰å˜é‡ä¼ å€¼ï¼Œè¿™é‡Œçš„å­—æ®µè¦ä¸€è‡´
 
-ÅÐ¶Ï±êÇ©²Î¿¼ ÕâÀïgteÎªÌõ¼þ£º
+
+<w:p> è¡¨ç¤ºä¸€ä¸ªæ®µè½
+
+<w:r> è¡¨ç¤ºä¸€ä¸ªæ ·å¼ä¸²ï¼ŒæŒ‡æ˜Žå®ƒåŒ…æ‹¬çš„æ–‡æœ¬çš„æ˜¾ç¤ºæ ·å¼
+
+<w:t> è¡¨ç¤ºçœŸæ­£çš„æ–‡æœ¬å†…å®¹
+
+
+
+
+åˆ¤æ–­æ ‡ç­¾å‚è€ƒ è¿™é‡Œgteä¸ºæ¡ä»¶ï¼š
 
 <#if jszb gte 98>
 
@@ -59,7 +59,7 @@ ${title} Ö±½Ó¶¨Òå±äÁ¿´«Öµ£¬ÕâÀïµÄ×Ö¶ÎÒªÒ»ÖÂ
 
 
 
-ÑÕÉ«²Î¿¼£º
+é¢œè‰²å‚è€ƒï¼š
 
 <w:r>
 
@@ -75,20 +75,20 @@ ${title} Ö±½Ó¶¨Òå±äÁ¿´«Öµ£¬ÕâÀïµÄ×Ö¶ÎÒªÒ»ÖÂ
 
 </w:r>
 
-<w:color w:val="FF0000"/>   ºìÉ«
+<w:color w:val="FF0000"/>   çº¢è‰²
 
-<w:color w:val="FFFF00"/>   »ÆÉ«
+<w:color w:val="FFFF00"/>   é»„è‰²
 
-<w:color w:val="548DD4"      À¶É«
+<w:color w:val="548DD4"      è“è‰²
 
 
-ftl¸ñÊ½ÖÐÒ»¸öÆÕÍ¨ÎÄ±¾µÄ¸ñÊ½£º
+ftlæ ¼å¼ä¸­ä¸€ä¸ªæ™®é€šæ–‡æœ¬çš„æ ¼å¼ï¼š
 
 <w:r>
 
     <w:rPr>
 
-     <w:rFonts w:ascii="ËÎÌå" w:eastAsia="ËÎÌå" w:hAnsi="ËÎÌå" w:cs="ËÎÌå" w:hint="eastAsia"/>
+     <w:rFonts w:ascii="å®‹ä½“" w:eastAsia="å®‹ä½“" w:hAnsi="å®‹ä½“" w:cs="å®‹ä½“" w:hint="eastAsia"/>
 
      <w:b/>
 
@@ -100,6 +100,6 @@ ftl¸ñÊ½ÖÐÒ»¸öÆÕÍ¨ÎÄ±¾µÄ¸ñÊ½£º
 
     </w:rPr>
 
-    <w:t>Éú²ú½ø¶ÈÒ»ÀÀ±í</w:t>
+    <w:t>ç”Ÿäº§è¿›åº¦ä¸€è§ˆè¡¨</w:t>
 
 </w:r>
